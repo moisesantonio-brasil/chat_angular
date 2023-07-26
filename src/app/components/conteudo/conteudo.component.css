@@ -1,0 +1,229 @@
+.base-conteudo{
+    width: auto;
+    height: auto;
+    background-color: rgb(33, 33, 33);
+    border: 5px solid rgb(17, 17, 17);
+    border-left: 0px;
+    border-right: 0px;
+
+}
+h2,h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 25px;
+margin: 5px;
+color: white;
+}
+h1{
+    color: gray;
+    font-style: oblique;
+    font-size: 16px;
+}
+.esp{
+    width: 300px;
+    height: 50px;
+    background-color: none;
+    display: flex;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 15px;
+    margin: 14px;color: white;
+}
+.img{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: red;
+margin: 10px;
+background-image: url("../../../assets/image/person_01.jpg");
+}
+
+#img1{
+    background-image: url("../../../assets/image/img1-p.jpg");
+}
+
+
+#logo1{
+    background-image: url("../../../assets/image/person_01.jpg");
+}
+
+
+.conteudo{
+    width: 650px;
+    height: 250px;
+    background-color: none;
+    margin: auto;
+    background-image: url("../../../assets/image/img1-p.jpg");
+}
+.base_m{
+    margin-left: 25px;
+    margin-top: 5px;
+    width: 300px;
+    height: 25px;
+    padding: 5px;
+    background-color: none;
+    display: flex;
+}
+.icon-part{
+    background-color: none;
+    cursor: pointer;
+    width: 80px;
+    height: 20px;
+    margin: 2px;
+    display: flex;
+    margin-right: 15px;
+}
+h3{
+    font-size: 16px;
+    line-height: 1%;
+    text-indent: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+.comentario{
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-top: 30px;
+}
+.base-comentar{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    padding-bottom: 15px;
+    background-color: rgb(19, 19, 19);
+    border-radius: 20px;
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.img-comentar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+input{
+    width: 500px;
+    height: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(19, 19, 19);
+    outline: none;
+    font-size: 18px;
+    color: white;
+  font-family: Arial, Helvetica, sans-serif;
+    text-indent: 10px;
+}
+input::placeholder{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: none;
+}
+.btn-comentar{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 462px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rtr-comentar{
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.resposta{
+    margin-top: 10px;
+    width: auto;
+    height:auto;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.nome-separado{
+    width: 500px;
+    height: 10px;
+    font-size: 20px;
+}
+p{
+    text-indent: 40px;
+    margin-top: none;
+}
+
+.share{
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    width: 400px;
+    height: 150px;
+    padding: 5px;
+    background-color: rgb(27, 26, 26);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo_share{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-bottom: 0px;
+    height: 10px;
+}
+.btn_share{
+    font-size: 20px;
+    height: 20px;
+    margin: 5px;
+    margin-left: 245px;
+    color: white;
+    background-color: rgb(27, 26, 26);
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+
+.img_share{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    margin-left: 20px;
+    border-radius: 10%
+}
+.compartilhar{
+    width: 80px;
+    margin: auto;
+    height: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1%;
+}
+
+.material-symbols-outlined{
+    background-color: rgb(33, 33, 33);
+    border: none;
+}
+
+.base_visualizaçao{
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    position: fixed;
+    top: 14%;
+    left: 29%;
+}
+

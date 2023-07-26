@@ -1,0 +1,102 @@
+.base-conteudo{
+    width: auto;
+    height: 430px;
+    background-color: rgb(33, 33, 33);
+    border: 5px solid rgb(17, 17, 17);
+    border-left: 0px;
+    border-right: 0px;
+}
+h2,h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 25px;
+margin: 5px;
+color: white;
+}
+h1{
+    color: gray;
+    font-style: oblique;
+    font-size: 16px;
+}
+.esp{
+    width: 300px;
+    height: 50px;
+    background-color: none;
+    display: flex;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 15px;
+    margin: 14px;color: white;
+}
+.img{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: red;
+margin: 10px;
+background-image: url("../../../assets/image/person_01.jpg");
+}
+
+#img1{
+    background-image: url("../../../assets/image/img1-p.jpg");
+}
+#img2{
+    background-image: url("../../../assets/image/img2-p.jpg");
+}
+#img3{
+    background-image: url("../../../assets/image/img3-p.jpg");
+}
+#img4{
+    background-image: url("../../../assets/image/img4-p.jpg");
+}
+#img5{
+    background-image: url("../../../assets/image/img5-p.jpg");
+}
+
+.conteudo{
+    width: 650px;
+    height: 250px;
+    background-color: none;
+    margin: auto;
+    background-image: url("../../../assets/image/img1-p.jpg");
+}
+.base_m{
+    margin-left: 25px;
+    margin-top: 5px;
+    width: 300px;
+    height: 25px;
+    padding: 5px;
+    background-color: none;
+    display: flex;
+}
+.icon-part{
+    background-color: none;
+    cursor: pointer;
+    width: 80px;
+    height: 20px;
+    margin: 2px;
+    display: flex;
+}
+h3{
+    font-size: 16px;
+    line-height: 1%;
+    text-indent: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.base-front{
+    height: 700px;
+    width: 700px;
+    background-color: rgb(37, 37, 37);
+    margin: auto;
+    
+}
+.base-lado{
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    position:fixed;
+    top: 30%;
+    left: 10%;
+}
